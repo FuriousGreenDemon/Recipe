@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes/>
         <macroponent display_value="Split">0687d70ba1c3c1107f449182c2d2a11f</macroponent>
         <name>Consumable Split</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[/**
  * @param {params} params
@@ -61,6 +63,7 @@ function handler({api, event, helpers, imports}) {
         <sys_update_name>sys_ux_client_script_0e87d70ba1c3c1107f449182c2d2a12d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-28 22:14:53</sys_updated_on>
+        <target/>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

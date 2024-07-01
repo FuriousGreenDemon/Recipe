@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_notes_1" table="x_snc_recipe_db_recipe">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Notes</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>true</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_notes_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>400</max_length>
+        <name>x_snc_recipe_db_recipe</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-22 15:18:35</sys_created_on>
+        <sys_id>f0e0ebd883750210c62d7a65eeaad3a0</sys_id>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_recipe_db_recipe_u_notes_1</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 17:51:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_dictionary_x_snc_recipe_db_recipe_u_notes_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_notes_1" table="x_snc_recipe_db_recipe"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Notes</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_notes_1</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>400</max_length><name>x_snc_recipe_db_recipe</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>ian.admin</sys_created_by><sys_created_on>2024-04-22 15:18:35</sys_created_on><sys_id>f0e0ebd883750210c62d7a65eeaad3a0</sys_id><sys_name>Notes</sys_name><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sys_dictionary_x_snc_recipe_db_recipe_u_notes_1</sys_update_name><sys_updated_by>ian.admin</sys_updated_by><sys_updated_on>2024-04-25 17:51:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>771094991</payload_hash>
+        <record_name>Recipe.Notes</record_name>
+        <reverted_from/>
+        <source>16acc2b683290210c62d7a65eeaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-25 17:51:18</sys_created_on>
+        <sys_id>0f9023d183f94210c62d7a65eeaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f166216050000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 17:51:18</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>839023d198f942103680955ca42bb55e</update_guid>
+        <update_guid_history>839023d198f942103680955ca42bb55e:771094991,72c8935988b9421053c8999ab29287f0:1513939790,78e0ebd84c750210b3dcf615fbebccb4:1205456212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:29:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>930f11d26f7e442dad27decad3d70d49</sys_id>
+        <sys_metadata>f0e0ebd883750210c62d7a65eeaad3a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent display_value="Recipe">ad02b0da1b8f41101363ff37dc4bcb2a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_dictionary_x_snc_recipe_db_recipe_u_notes_1</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_recipe_db_recipe_u_notes_1">0f9023d183f94210c62d7a65eeaad35e</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:29:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

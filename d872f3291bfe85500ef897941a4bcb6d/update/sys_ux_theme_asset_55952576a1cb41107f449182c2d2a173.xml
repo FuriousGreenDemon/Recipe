@@ -23,6 +23,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>RecipeDBLogo.png</file_name>
         <hash>aef198d9a0a5437abad1ca4ca05fe1d02a907da1dc44f4dd3d7e729183eef61e</hash>
         <image_height>112</image_height>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="DELETE">
+        <col_name_string>number</col_name_string>
+        <index_col_name element="number" name="x_snc_recipe_db_recipe">fd0234da1b8f41101363ff37dc4bcb57</index_col_name>
+        <logical_table_name>x_snc_recipe_db_recipe</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-18 10:33:27</sys_created_on>
+        <sys_id>b049f94383610210c62d7a65eeaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_recipe_db_recipe</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_index_x_snc_recipe_db_recipe_number</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-18 10:33:27</sys_updated_on>
+        <table/>
+        <unique_index>false</unique_index>
+    </sys_index>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_index_x_snc_recipe_db_recipe_number</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index"><sys_index action="INSERT_OR_UPDATE"><col_name_string>number</col_name_string><index_col_name element="number" name="x_snc_recipe_db_recipe">fd0234da1b8f41101363ff37dc4bcb57</index_col_name><logical_table_name>x_snc_recipe_db_recipe</logical_table_name><sys_class_name>sys_index</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-04-18 10:33:27</sys_created_on><sys_id>b049f94383610210c62d7a65eeaad3da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_recipe_db_recipe</sys_name><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sys_index_x_snc_recipe_db_recipe_number</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-04-18 10:33:27</sys_updated_on><table/><unique_index>false</unique_index></sys_index></record_update>]]></payload>
+        <payload_hash>1372985264</payload_hash>
+        <record_name>Recipe: Number</record_name>
+        <reverted_from/>
+        <source>16acc2b683290210c62d7a65eeaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:29:22</sys_created_on>
+        <sys_id>fa1a2c4283f50610c62d7a65eeaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1f8811950000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:29:22</sys_updated_on>
+        <type>Indexes</type>
+        <update_guid>7449f943e161021047a48bd4a040e1dc</update_guid>
+        <update_guid_history>7449f943e161021047a48bd4a040e1dc:-20519558,7449f943e161021047a48bd4a040e1dc:-20519558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:30:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_index">sys_index</sys_db_object>
+        <sys_id>0479fdb4fab742b6803ab39bab51f4c4</sys_id>
+        <sys_metadata>b049f94383610210c62d7a65eeaad3da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_recipe_db_recipe</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_index_x_snc_recipe_db_recipe_number</sys_update_name>
+        <sys_update_version display_value="sys_index_x_snc_recipe_db_recipe_number">fa1a2c4283f50610c62d7a65eeaad321</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:30:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

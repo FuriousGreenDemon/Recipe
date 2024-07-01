@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "clccjilzpiiaacceffddgggzvniiagghhy",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_snc_recipe_db.NAV_ITEM_SELECTED_RELAY_a31e6756a18301107f449182c2d2a125",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_snc_recipe_db.NAV_ITEM_SELECTED_RELAY_a31e6756a18301107f449182c2d2a125",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "container": {
+                            "external": {
+                                "binding": {
+                                    "address": [
+                                        "external"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "multiInstField": {
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "passiveNavigation": {
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "redirect": {
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "targetRoute": {
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "title": {
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "clccjilzpiiaacceeeddgggzygjlddiiccw",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings>
+        <macroponent/>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "recipeId": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Directions &amp; Notes</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Recipe">e31e6756a18301107f449182c2d2a120</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-19 14:34:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e20a33db83e10210c62d7a65eeaad33f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Directions &amp; Notes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_ux_screen_e20a33db83e10210c62d7a65eeaad33f</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 14:59:30</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=e20a33db83e10210c62d7a65eeaad33f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_ux_screen_e20a33db83e10210c62d7a65eeaad33f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config/><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings>[
+    {
+        "eventMappingId": "clccjilzpiiaacceffddgggzvniiagghhy",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_snc_recipe_db.NAV_ITEM_SELECTED_RELAY_a31e6756a18301107f449182c2d2a125",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_snc_recipe_db.NAV_ITEM_SELECTED_RELAY_a31e6756a18301107f449182c2d2a125",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "container": {
+                            "external": {
+                                "binding": {
+                                    "address": [
+                                        "external"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "multiInstField": {
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "passiveNavigation": {
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "redirect": {
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "targetRoute": {
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "title": {
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "clccjilzpiiaacceeeddgggzygjlddiiccw",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings><macroponent/><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "recipeId": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>Directions &amp; Notes</name><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Recipe">e31e6756a18301107f449182c2d2a120</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>ian.admin</sys_created_by><sys_created_on>2024-04-19 14:34:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e20a33db83e10210c62d7a65eeaad33f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Directions &amp; Notes</sys_name><sys_overrides/><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sys_ux_screen_e20a33db83e10210c62d7a65eeaad33f</sys_update_name><sys_updated_by>ian.admin</sys_updated_by><sys_updated_on>2024-04-19 14:59:30</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=e20a33db83e10210c62d7a65eeaad33f"/></record_update>]]></payload>
+        <payload_hash>973847263</payload_hash>
+        <record_name>Directions &amp; Notes</record_name>
+        <reverted_from/>
+        <source>16acc2b683290210c62d7a65eeaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:30:05</sys_created_on>
+        <sys_id>154a28c283f50610c62d7a65eeaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1f88b9fd0000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:30:05</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>40cf3353242502103f595aead4379b06</update_guid>
+        <update_guid_history>40cf3353242502103f595aead4379b06:1397120978,40cf3353242502103f595aead4379b06:1397120978,af6bbb1f95e102102e721e3549049bba:1397120978,a60a33db7de10210f351ca28b4f78941:-900417842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:30:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>56637eea2bca4992a3666f5a68c62cc4</sys_id>
+        <sys_metadata>e20a33db83e10210c62d7a65eeaad33f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Directions &amp; Notes</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_screen_e20a33db83e10210c62d7a65eeaad33f</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_e20a33db83e10210c62d7a65eeaad33f">154a28c283f50610c62d7a65eeaad3bd</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:30:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">5538bb3683510210c62d7a65eeaad3f5</macroponent>
+        <name>typeahead_1/selectedItem</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api}) {
+	const data = api.data.look_up_recipes.results;
+	return data.map(e => ({
+		id: e.sys_id.value,
+		label: e.name.value,
+		sublabel: e.category.displayValue,
+		avatarProps: {
+			userName: e.name.value,
+			imageSrc: e.image.displayValue
+		}
+	}));
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 15:56:04</sys_created_on>
+        <sys_id>cd9d29fa83650210c62d7a65eeaad318</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>typeahead_1/selectedItem</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_ux_client_script_cd9d29fa83650210c62d7a65eeaad318</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 15:56:04</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_ux_client_script_cd9d29fa83650210c62d7a65eeaad318</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;5538bb3683510210c62d7a65eeaad3f5&lt;/macroponent&gt;&lt;name&gt;typeahead_1/selectedItem&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api}) {
+	const data = api.data.look_up_recipes.results;
+	return data.map(e =&gt; ({
+		id: e.sys_id.value,
+		label: e.name.value,
+		sublabel: e.category.displayValue,
+		avatarProps: {
+			userName: e.name.value,
+			imageSrc: e.image.displayValue
+		}
+	}));
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ian.admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-17 15:56:04&lt;/sys_created_on&gt;&lt;sys_id&gt;cd9d29fa83650210c62d7a65eeaad318&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;typeahead_1/selectedItem&lt;/sys_name&gt;&lt;sys_package display_value="Recipe DB" source="x_snc_recipe_db"&gt;d872f3291bfe85500ef897941a4bcb6d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Recipe DB"&gt;d872f3291bfe85500ef897941a4bcb6d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_cd9d29fa83650210c62d7a65eeaad318&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ian.admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-17 15:56:04&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-751616188</payload_hash>
+        <record_name>typeahead_1/selectedItem</record_name>
+        <reverted_from/>
+        <source>decd3da283510210c62d7a65eeaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 15:56:04</sys_created_on>
+        <sys_id>0989753e83a50210c62d7a65eeaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eecc5b6b10000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 15:56:04</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>4d89753e52a502100b099376a8f20f1b</update_guid>
+        <update_guid_history>4d89753e52a502100b099376a8f20f1b:-751616188</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:06:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0a78f7de89cd4094811fde1213b78d10</sys_id>
+        <sys_metadata>cd9d29fa83650210c62d7a65eeaad318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>typeahead_1/selectedItem</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_client_script_cd9d29fa83650210c62d7a65eeaad318</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_cd9d29fa83650210c62d7a65eeaad318">0989753e83a50210c62d7a65eeaad31c</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:06:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

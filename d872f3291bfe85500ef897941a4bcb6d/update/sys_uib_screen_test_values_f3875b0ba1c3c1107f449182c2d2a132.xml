@@ -3,7 +3,7 @@
         <macroponent_config>{
   "propagateNotifications" : false
 }</macroponent_config>
-        <screen display_value="Agent assist incident">98ce90970f0210107d20409dc4767e9e</screen>
+        <screen display_value="">98ce90970f0210107d20409dc4767e9e</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-28 22:15:01</sys_created_on>

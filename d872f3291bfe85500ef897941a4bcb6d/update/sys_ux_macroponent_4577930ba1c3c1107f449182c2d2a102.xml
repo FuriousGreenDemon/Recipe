@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -753,8 +754,11 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events>e19db124ed123010fa9b0089856e480a,feb2936ebc023010fa9b0ad59e917af5</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -774,6 +778,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Split</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "Table",
@@ -882,4 +887,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-28 22:14:33</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=4577930ba1c3c1107f449182c2d2a102"/>
 </record_update>

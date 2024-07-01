@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_module_key_policy">
+    <sys_kmf_module_key_policy action="DELETE">
+        <crypto_module display_value="legal_name_for_employee_profile AES-256">5753959867323110fc90a2aeb8f922f9</crypto_module>
+        <key_type display_value="Symmetric Data Encryption Key">1c38f324c7003300af4d43c6f097636e</key_type>
+        <last_enforced>2024-04-04 15:04:58</last_enforced>
+        <result>reject</result>
+        <sys_class_name>sys_kmf_module_key_policy</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-04 15:04:58</sys_created_on>
+        <sys_id>fd21f66a83550210c62d7a65eeaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_kmf_module_key_policy_fd21f66a83550210c62d7a65eeaad3d8</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 15:04:58</sys_updated_on>
+    </sys_kmf_module_key_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_kmf_module_key_policy_fd21f66a83550210c62d7a65eeaad3d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_module_key_policy"><sys_kmf_module_key_policy action="INSERT_OR_UPDATE"><crypto_module display_value="legal_name_for_employee_profile AES-256">5753959867323110fc90a2aeb8f922f9</crypto_module><key_type display_value="Symmetric Data Encryption Key">1c38f324c7003300af4d43c6f097636e</key_type><last_enforced>2024-04-04 15:04:58</last_enforced><result>reject</result><sys_class_name>sys_kmf_module_key_policy</sys_class_name><sys_created_by>ian.admin</sys_created_by><sys_created_on>2024-04-04 15:04:58</sys_created_on><sys_id>fd21f66a83550210c62d7a65eeaad3d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sys_kmf_module_key_policy_fd21f66a83550210c62d7a65eeaad3d8</sys_update_name><sys_updated_by>ian.admin</sys_updated_by><sys_updated_on>2024-04-04 15:04:58</sys_updated_on></sys_kmf_module_key_policy></record_update>]]></payload>
+        <payload_hash>343734674</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>decd3da283510210c62d7a65eeaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-04 15:04:58</sys_created_on>
+        <sys_id>b121f66a83550210c62d7a65eeaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea9a443cc0000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 15:04:58</sys_updated_on>
+        <type>Crypto Module Key Policy</type>
+        <update_guid>3521f66a9d55021088e477cc0ac50edc</update_guid>
+        <update_guid_history>3521f66a9d55021088e477cc0ac50edc:343734674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:07:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_kmf_module_key_policy">sys_kmf_module_key_policy</sys_db_object>
+        <sys_id>318f8e960b6e449494f44ac0a7544190</sys_id>
+        <sys_metadata>fd21f66a83550210c62d7a65eeaad3d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_kmf_module_key_policy_fd21f66a83550210c62d7a65eeaad3d8</sys_update_name>
+        <sys_update_version display_value="sys_kmf_module_key_policy_fd21f66a83550210c62d7a65eeaad3d8">b121f66a83550210c62d7a65eeaad3dd</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:07:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

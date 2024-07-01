@@ -4,7 +4,7 @@
   "sysId" : "552c48888c033300964f4932b03eb092",
   "table" : "incident"
 }</macroponent_config>
-        <screen display_value="DA Modal Page Default">93eb63d40f0310107d20409dc4767e70</screen>
+        <screen display_value="">93eb63d40f0310107d20409dc4767e70</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-28 22:14:47</sys_created_on>

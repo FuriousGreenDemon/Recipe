@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "recipeId": "bf86d000113a89107f4444bd6579adb2"
+}</macroponent_config>
+        <screen display_value="Default">3061c26283910210c62d7a65eeaad379</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-04 11:36:17</sys_created_on>
+        <sys_id>f061c26283910210c62d7a65eeaad37c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_f061c26283910210c62d7a65eeaad37c</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 14:11:02</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_uib_screen_test_values_f061c26283910210c62d7a65eeaad37c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "recipeId": "bf86d000113a89107f4444bd6579adb2"
+}</macroponent_config><screen display_value="Default">3061c26283910210c62d7a65eeaad379</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>ian.admin</sys_created_by><sys_created_on>2024-04-04 11:36:17</sys_created_on><sys_id>f061c26283910210c62d7a65eeaad37c</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sys_uib_screen_test_values_f061c26283910210c62d7a65eeaad37c</sys_update_name><sys_updated_by>ian.admin</sys_updated_by><sys_updated_on>2024-04-04 14:11:02</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>21184728</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>decd3da283510210c62d7a65eeaad319</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-04 14:11:02</sys_created_on>
+        <sys_id>6bc46eaa83150210c62d7a65eeaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea972e24e0000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 14:11:02</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>63c46eaa09150210d2766e853bd054d7</update_guid>
+        <update_guid_history>63c46eaa09150210d2766e853bd054d7:21184728,3861c2629e910210d11b0cc18dacb77d:1699578449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:06:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>3648958567c94685a215677e05e44079</sys_id>
+        <sys_metadata>f061c26283910210c62d7a65eeaad37c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_uib_screen_test_values_f061c26283910210c62d7a65eeaad37c</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_f061c26283910210c62d7a65eeaad37c">6bc46eaa83150210c62d7a65eeaad3d7</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:06:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

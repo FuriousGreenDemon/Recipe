@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -1047,8 +1048,11 @@
   "inputValues" : { },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>86a3dc7553223010f263ddeeff7b1263,75a3dc7553223010f263ddeeff7b1258</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -1068,6 +1072,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Retire</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "Table",
@@ -1199,4 +1204,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-28 22:14:58</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b871b0ba1c3c1107f449182c2d2a178"/>
 </record_update>

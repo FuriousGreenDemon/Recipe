@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config/>
-        <screen display_value="Template">ab35ff9a0b321010a8b1c96237673aa2</screen>
+        <screen display_value="">ab35ff9a0b321010a8b1c96237673aa2</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-28 22:14:38</sys_created_on>

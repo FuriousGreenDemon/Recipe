@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-04 11:17:46</sys_created_on>
+        <sys_id>e52db92283510210c62d7a65eeaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.recipe-db.*.snc_internal</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_security_acl display_value="">c879df751b7ec5500ef897941a4bcb25</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e52db92283510210c62d7a65eeaad32c</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 11:17:46</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>5d1d752283510210c62d7a65eeaad362</transaction_id>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_security_acl_role_e52db92283510210c62d7a65eeaad32c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>ian.admin</sys_created_by><sys_created_on>2024-04-04 11:17:46</sys_created_on><sys_id>e52db92283510210c62d7a65eeaad32c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>now.recipe-db.*.snc_internal</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_security_acl display_value="">c879df751b7ec5500ef897941a4bcb25</sys_security_acl><sys_update_name>sys_security_acl_role_e52db92283510210c62d7a65eeaad32c</sys_update_name><sys_updated_by>ian.admin</sys_updated_by><sys_updated_on>2024-04-04 11:17:46</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role><transaction_id>5d1d752283510210c62d7a65eeaad362</transaction_id></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>784978872</payload_hash>
+        <record_name>now.recipe-db.*.snc_internal</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:07:09</sys_created_on>
+        <sys_id>6ec946b283290210c62d7a65eeaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eed06cd390000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:07:09</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2ec946b2d1290210141bb6c1f160ce8b</update_guid>
+        <update_guid_history>2ec946b2d1290210141bb6c1f160ce8b:784978872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="now.recipe-db.*.snc_internal">e6c946b283290210c62d7a65eeaad38d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:07:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0c0e461df3d547c7844fd4225e92f449</sys_id>
+        <sys_metadata>e52db92283510210c62d7a65eeaad32c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.recipe-db.*.snc_internal</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent display_value="now.recipe-db.*">c879df751b7ec5500ef897941a4bcb25</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_security_acl_role_e52db92283510210c62d7a65eeaad32c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e52db92283510210c62d7a65eeaad32c">6ec946b283290210c62d7a65eeaad38b</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:07:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

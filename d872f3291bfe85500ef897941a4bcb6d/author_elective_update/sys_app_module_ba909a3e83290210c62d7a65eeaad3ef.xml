@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Import_Category</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_recipe_db_import_category</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:36:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba909a3e83290210c62d7a65eeaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import_Category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_update_name>sys_app_module_ba909a3e83290210c62d7a65eeaad3ef</sys_update_name>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:36:56</sys_updated_on>
+        <timeline_page/>
+        <title>Import_Category</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</application>
+        <file_path/>
+        <instance_id>218f3d5fdbb13150caf99027c596197b</instance_id>
+        <instance_name>dev186946</instance_name>
+        <name>sys_app_module_ba909a3e83290210c62d7a65eeaad3ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Import_Category</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_recipe_db_import_category</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>ian.admin</sys_created_by><sys_created_on>2024-04-17 17:36:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ba909a3e83290210c62d7a65eeaad3ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Import_Category</sys_name><sys_overrides/><sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package><sys_policy/><sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope><sys_update_name>sys_app_module_ba909a3e83290210c62d7a65eeaad3ef</sys_update_name><sys_updated_by>ian.admin</sys_updated_by><sys_updated_on>2024-04-17 17:36:56</sys_updated_on><timeline_page/><title>Import_Category</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>352022371</payload_hash>
+        <record_name>Import_Category</record_name>
+        <reverted_from/>
+        <source>16acc2b683290210c62d7a65eeaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-17 17:36:56</sys_created_on>
+        <sys_id>7a909a3e83290210c62d7a65eeaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eed2212380000001</sys_recorded_at>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-17 17:36:56</sys_updated_on>
+        <type>Module</type>
+        <update_guid>be909a3e59290210d3aa004fe47700fe</update_guid>
+        <update_guid_history>be909a3e59290210d3aa004fe47700fe:352022371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Import_Category">021ae84283f50610c62d7a65eeaad35f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ian.admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:29:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4a0095c988b1460aae92952921db7044</sys_id>
+        <sys_metadata>ba909a3e83290210c62d7a65eeaad3ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import_Category</sys_name>
+        <sys_package display_value="Recipe DB" source="x_snc_recipe_db">d872f3291bfe85500ef897941a4bcb6d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Recipe DB">d872f3291bfe85500ef897941a4bcb6d</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_app_module_ba909a3e83290210c62d7a65eeaad3ef</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ba909a3e83290210c62d7a65eeaad3ef">7a909a3e83290210c62d7a65eeaad3ff</sys_update_version>
+        <sys_updated_by>ian.admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:29:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
