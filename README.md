@@ -1,2 +1,2 @@
 # Recipe
-Recipe app with HTML Notes and Search now works on title recipe and instructions
+Recipe app with HTML Notes, instead of Journal. Also Search now works on Title, Recipe and Instructions, not just Title.
